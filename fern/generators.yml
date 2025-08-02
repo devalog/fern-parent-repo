@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://schema.buildwithfern.dev/generators-yml.json
+default-group: local
+groups:
+  local:
+    generators:
+      - name: fernapi/fern-typescript-sdk
+        output:
+          location: local-file-system
+          path: ../sdks/typescript
+        version: 2.6.4
+  ts-sdk:
+    generators:
+      - name: fernapi/fern-typescript-sdk
+        version: 2.6.4
+        output:
+          location: npm
+          package-name: devin-package-new
+          token: ${NPM_TOKEN}
+        config:
+          namespaceExport: MyClientNameDevin
+        github:
+          repository: devalog/ts-workflow
