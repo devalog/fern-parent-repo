@@ -15,6 +15,7 @@ groups:
         output:
           location: npm
           package-name: devin-package-new
+          token: ${NPM_TOKEN}
         config:
           namespaceExport: MyClientNameDevin
         github:
