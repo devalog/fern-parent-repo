@@ -20,3 +20,16 @@ groups:
           namespaceExport: MyClientNameDevin
         github:
           repository: devalog/ts-workflow
+  python-sdk:
+    generators:
+      - name: fernapi/fern-python-sdk
+        version: 4.28.0
+        output:
+          location: pypi
+          package-name: devin-new-test-package
+          token: ${PYPI_TOKEN}
+        config:
+          client_class_name: MyClientNameDevin
+        github: 
+          repository: devalog/company-python-test
+
