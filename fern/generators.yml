@@ -14,7 +14,7 @@ groups:
         version: 2.6.4
         output:
           location: npm
-          package-name: devin-package-new
+          package_name: devin_package_new
           token: ${NPM_TOKEN}
         config:
           namespaceExport: MyClientNameDevin
@@ -26,7 +26,7 @@ groups:
         version: 4.28.0
         output:
           location: pypi
-          package-name: devin-new-test-package
+          package_name: devin_new_test_package
           token: ${PYPI_TOKEN}
         config:
           client_class_name: MyClientNameDevin
