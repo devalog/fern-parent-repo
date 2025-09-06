@@ -32,4 +32,5 @@ groups:
           client_class_name: MyClientNameDevin
         github: 
           repository: devalog/company-python-test
+          mode: pull-request
 
