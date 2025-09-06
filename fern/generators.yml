@@ -20,6 +20,7 @@ groups:
           namespaceExport: MyClientNameDevin
         github:
           repository: devalog/ts-workflow
+          mode: pull-request
   python-sdk:
     generators:
       - name: fernapi/fern-python-sdk
@@ -32,5 +33,4 @@ groups:
           client_class_name: MyClientNameDevin
         github: 
           repository: devalog/company-python-test
-          mode: pull-request
 
