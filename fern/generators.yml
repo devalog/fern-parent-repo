@@ -19,7 +19,7 @@ groups:
         config:
           namespaceExport: MyClientNameDevin
         github:
-          repository: devalog/ts-workflow
+          repository: devalog/typescript-sdk
           mode: pull-request
   python-sdk:
     generators:
@@ -32,5 +32,5 @@ groups:
         config:
           client_class_name: MyClientNameDevin
         github: 
-          repository: devalog/company-python-test
+          repository: devalog/python-sdk
 
