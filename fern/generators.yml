@@ -20,7 +20,8 @@ groups:
           namespaceExport: MyClientNameDevin
         github:
           repository: devalog/typescript-sdk
-          mode: pull-request
+          mode: push
+          branch: release-branch
   python-sdk:
     generators:
       - name: fernapi/fern-python-sdk
