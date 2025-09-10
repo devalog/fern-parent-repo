@@ -7,11 +7,11 @@ groups:
         output:
           location: local-file-system
           path: ../sdks/typescript
-        version: 2.6.4
+        version: 2.9.0
   ts-sdk:
     generators:
       - name: fernapi/fern-typescript-sdk
-        version: 2.6.4
+        version: 2.9.0
         output:
           location: npm
           package-name: devin-package-new
