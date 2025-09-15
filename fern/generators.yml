@@ -44,6 +44,24 @@ groups:
           client_class_name: TestClientDevin
         github:
           repository: devalog/csharp-sdk
+  java-sdk:
+    generators:
+      - name: fernapi/fern-java-sdk
+        version: 3.2.0
+        output:
+          location: maven
+          coordinate: io.github.devalog:sdk-name-test
+          username: ${SONATYPE_CENTRAL_USERNAME}
+          password: ${SONATYPE_CENTRAL_PASSWORD}
+          signature:
+            keyId: ${MAVEN_SIGNATURE_SECRET_KEY_ID}
+            password: ${MAVEN_SIGNATURE_PASSWORD}
+            secretKey: ${MAVEN_SIGNATURE_SECRET_KEY}
+        config:
+          publish-to: central
+        github:
+          repository: devalog/java-sdk
+
 readme:
   introduction: "Welcome to my API"
   disabledSections:
