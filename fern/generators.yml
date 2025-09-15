@@ -32,6 +32,18 @@ groups:
           client_class_name: MyClientNameDevin
         github: 
           repository: devalog/python-sdk
+  csharp-sdk: # group name
+    generators:
+      - name: fernapi/fern-csharp-sdk
+        version: 2.1.15
+        output:
+          location: nuget
+          package-name: DevinApiTest
+          api-key: ${NUGET_API_KEY}
+        config:
+          client_class_name: TestClientDevin
+        github:
+          repository: devalog/csharp-sdk
 readme:
   introduction: "Welcome to my API"
   disabledSections:
