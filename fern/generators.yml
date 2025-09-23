@@ -70,5 +70,5 @@ readme:
     - title: "Custom Section"
       language: "typescript"
       content: |
-        Custom section for {{ packageName }} at version number: {{ version }}
+        Custom section for {{ packageName }} 
 
