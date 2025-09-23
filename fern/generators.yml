@@ -61,7 +61,6 @@ groups:
           publish-to: central
         github:
           repository: devalog/java-sdk
-
 readme:
   introduction: "Welcome to my API"
   disabledSections:
