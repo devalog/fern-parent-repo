@@ -70,6 +70,8 @@ groups:
           api-key: ${POSTMAN_API_KEY}
           workspace-id: e94a6c8e-5ad6-43eb-856f-2e1960e81800
           collection-id: 48791862-b44379e4-ca91-4c7d-aaf6-94078fd6cfc5
+        config:
+          collection-name: New test collection
         github:
           repository: devalog/postman-collection
 readme:
