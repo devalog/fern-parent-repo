@@ -7,7 +7,7 @@ groups:
         output:
           location: local-file-system
           path: ../sdks/typescript
-        version: 2.9.0
+        version: 3.2.0
   ts-sdk:
     generators:
       - name: fernapi/fern-typescript-sdk
@@ -61,6 +61,18 @@ groups:
           publish-to: central
         github:
           repository: devalog/java-sdk
+  postman:
+    generators:
+      - name: fernapi/fern-postman
+        version: 0.4.2
+        output:
+          location: postman
+          api-key: ${POSTMAN_API_KEY}
+          workspace-id: e94a6c8e-5ad6-43eb-856f-2e1960e81800
+        config:
+          collection-name: Test collection
+        github:
+          repository: devalog/postman-collection
 readme:
   introduction: "Welcome to my API"
   disabledSections:
